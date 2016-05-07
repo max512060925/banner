@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  position: relative;
+  width: 550px;
+  height: 300px;
+  margin: 100px auto;
+  border: 1px solid #673AB7;
+  overflow: hidden;
+}
+.banner .img {
+  position: absolute;
+  left: 0;
+  width: 50000px;
+}
+.banner .img li {
+  list-style: none;
+  float: left;
+}
+.banner .img li img {
+  width: 550px;
+}
+.banner .btn {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: -25px;
+  font: bolder 18px "宋体";
+  color: #673AB7;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.banner .btn_l {
+  left: 0;
+}
+.banner .btn_r {
+  right: 0;
+}
+.banner #num {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 7px;
+  width: 100%;
+}
+.banner #num li {
+  display: inline-block;
+  width: 39px;
+  height: 7px;
+  background: url(../images/swiper.jpg) center center no-repeat;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.banner #num .on {
+  background: url(../images/swiper2.jpg) center center no-repeat;
+}
